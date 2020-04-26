@@ -1,0 +1,22 @@
++++
+title = "Asciidoc + Hugo Test"
+date = "2020-04-26"
++++
+
+= Asciidoc + Hugo Test
+:toc:
+
+
+Test test test.
+
+[graphviz, example, svg]
+....
+digraph G {
+  main -> parse -> execute;
+  main -> init;
+  main -> cleanup;
+  execute -> comparator;
+}
+....
+
+Test test test.
